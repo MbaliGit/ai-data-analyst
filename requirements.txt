@@ -1,0 +1,5 @@
+streamlit
+pandas
+plotly
+ollama
+ollama pull llama3.2ollama pull llama3.2
