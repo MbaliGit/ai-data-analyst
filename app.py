@@ -147,7 +147,7 @@ if uploaded:
                 )
 
             st.subheader("What the data suggests")
-            st.write(response.message.content)str
+            st.write(response.message.content)
 
     except Exception as exc:
         st.error(f"Could not analyze the file: {exc}")
