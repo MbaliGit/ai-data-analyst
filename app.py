@@ -50,9 +50,9 @@ Question: {question}
     return json.loads(response.message.content)
 
     def analyze(df, plan):
-    operation = plan["operation"]
-    group_col = plan["group_column"]
-    value_col = plan["value_column"]
+        operation = plan["operation"]
+        group_col = plan["group_column"]
+        value_col = plan["value_column"]
 
     if operation == "summary":
         return df.describe(include="all").fillna("").to_string(), None
